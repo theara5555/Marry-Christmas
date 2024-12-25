@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Suwannaphum:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+* {
+  font-family: 'Suwannaphum', serif;
+  font-family: 'Roboto Slab', serif;
+}
+@font-face {
+  font-family: 'theara';
+  src: url(../Font/PlaywriteBEVLG-Regular.ttf);
+}
+.container {
+  background-color: blanchedalmond;
+  width: 80%;
+  height: auto;
+  padding: 15px;
+  border: grey 5px solid;
+  margin: auto;
+}
+h2 {
+  margin: 0;
+  text-align: center;
+  font-variant: small-caps;
+}
+h2,
+span {
+  color: darkblue;
+}
+span {
+  font-weight: 700;
+  /* font-family: "Suwannaphum"; */
+  font-family: 'theara';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+small {
+  font-family: 'Times New Roman', Times, serif;
+}
+button {
+  background-color: aqua;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+}

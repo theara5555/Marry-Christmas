@@ -1,0 +1,82 @@
+body {
+  font-family: sans-serif;
+}
+.header {
+  text-align: center;
+}
+.navbar {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  background-color: rgb(184, 205, 251);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.navbarlist {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbarlist li {
+  margin: 0 30px;
+}
+
+.navbarlist li a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-align: center;
+  color: rgb(0, 51, 255);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.navbarlist li a:hover {
+  background-color: rgb(42, 42, 255);
+  color: white;
+}
+.card-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  width: 280px;
+  margin-top: 20px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.image img {
+  width: 280px;
+  border-radius: 10px 10px 0 0;
+}
+.content {
+  padding: 10px;
+  flex-direction: column;
+  gap: 10px;
+}
+.label,
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.label small {
+  background-color: rgb(121, 145, 250);
+  padding: 1px 4px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+.icon {
+  margin-right: 5px;
+}
